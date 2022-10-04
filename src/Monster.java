@@ -52,7 +52,7 @@ public class Monster {
         return this.power;
     }
 
-    public void setDefense(int defence){this.defense  = defense;}
+    public void setDefense(int defense){this.defense  = defense;}
 
     public int getDefense(){
         return this.defense;

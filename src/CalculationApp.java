@@ -3,25 +3,25 @@ import java.util.Scanner;
 public class CalculationApp {
 
     public static void main(String[] args) {
-        Calculation calculation = new Calculation();
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("xを入力してください。");
 
-        calculation.setX(scanner.nextInt());
+        int x = scanner.nextInt();
 
         System.out.println("yを入力してください。");
 
-        calculation.setY(scanner.nextInt());
+        int y = scanner.nextInt();
 
         System.out.println("zを入力してください。");
 
-        calculation.setZ(scanner.nextInt());
+        int z = scanner.nextInt();
 
-        System.out.println("xとyを比較して大きい方は" +calculation.selectBigNum2()+"です。");
+        System.out.println("xとyを比較して大きい方は" +Calculation.selectBigNum2(x,y)+"です。");
 
 
-        System.out.println("xとyとzを比較して大きい方は" +calculation.selectBigNum3()+"です。");
+        System.out.println("xとyとzを比較して大きい方は" +Calculation.selectBigNum3(x, y, z)+"です。");
 
 
     }
