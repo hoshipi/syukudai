@@ -1,3 +1,5 @@
+package 課題1から2;
+
 public class Kurikaesi02 {
     public static void main(String[] args) {
         int i;

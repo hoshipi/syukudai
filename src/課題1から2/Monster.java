@@ -1,4 +1,6 @@
-public class Monster {
+package 課題1から2;
+
+public class Monster implements Battle{
 
     public String name;
     public int level;
@@ -10,6 +12,7 @@ public class Monster {
     public int agility;
 
     public String profile;
+
 
 
     public void setName(String name){
@@ -71,5 +74,20 @@ public class Monster {
     }
 
 
+    @Override
+    public void tatakau() {
+        damage();
+        System.out.println(this.name + "は攻撃した！");
+    }
 
+    @Override
+    public void nigeru() {
+        System.out.println(this.name + "は逃げた！");
+    }
+
+    @Override
+    public void damage() {
+        this.hp -= 10;
+
+    }
 }

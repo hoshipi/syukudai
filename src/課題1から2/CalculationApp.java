@@ -1,3 +1,5 @@
+package 課題1から2;
+
 import java.util.Scanner;
 
 public class CalculationApp {

@@ -1,6 +1,8 @@
+package 課題1から2;
+
 import java.util.Scanner;
 
-public class MonsterApp {
+public class MonsterApp{
 
     public static void main(String[] args) {
 
@@ -58,5 +60,6 @@ public class MonsterApp {
 
 
     }
+
 
 }

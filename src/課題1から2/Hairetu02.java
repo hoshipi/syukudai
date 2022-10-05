@@ -1,3 +1,5 @@
+package 課題1から2;
+
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Collections;
